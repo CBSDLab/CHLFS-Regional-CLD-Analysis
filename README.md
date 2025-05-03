@@ -10,5 +10,8 @@ To address these limitations and questions, a simulation model was developed bas
 
 The strict correspondence between the qualitative CLD and simulation model means that the simulation results can be interpreted as the behavior logically implied by the CLD. It is important to keep in mind that this is only one set of implied behaviors among a much larger set of implied behaviors as different techniques for formally simulating a CLD could yeild different sets of implied behaviors. While this limits the practical significance of a CLD simulation to inform policies and interventions in the real world, it does allow us to better understand the limitations of qualitative CLDs and heuristics. That is important to keep in mind because short of building full research simulation models, which takes time, resources, data, and considerable expertise in developing and testing simulation models, many justify the use of qualitative CLDs and heuristics as a viable alternative to simulation modeling for informing policy and intervention design.   
 
-## Core Feedback Theories
+## Study 1 - Simulating Shock Scenarios
+
+## Study 2 - Sensitivity Analysis with Shock Scenarios
+
 
