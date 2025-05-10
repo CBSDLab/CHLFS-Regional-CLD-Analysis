@@ -3,7 +3,7 @@
 #SBATCH -c 1
 #SBATCH -t 1:00:00
 #SBATCH --output=my.stdout 
-#SBATCH --mail-user=psh39@case.edu 
+#SBATCH --mail-user=<your email>
 #SBATCH --mail-type=ALL 
 #SBATCH --job-name="CHL FS CLD Study1"
 #SBATCH -o serial-R.out%j # capture jobid in output file name
