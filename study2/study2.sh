@@ -9,16 +9,15 @@
 # Created by Peter S. Hovmand May 4, 2025
 # Revised by Peter S. Hovmand May 11, 2025
 # 
-# Uncomment section below for HPC SLURM commands
-# #SBATCH -N 1
-# #SBATCH -c 1
-# #SBATCH -t 1:00:00
-# #SBATCH --output=my.stdout 
-# #SBATCH --mail-user=<your email> 
-# #SBATCH --mail-type=ALL 
-# #SBATCH --job-name="CHL FS CLD study 2"
+#SBATCH -N 1
+#SBATCH -c 1
+#SBATCH -t 1:00:00
+#SBATCH --output=my.stdout 
+#SBATCH --mail-user=<your email> 
+#SBATCH --mail-type=ALL 
+#SBATCH --job-name="CHL FS CLD study 2"
 # 
-# #SBATCH -o serial-R.out%j # capture jobid in output file name
+#SBATCH -o serial-R.out%j # capture jobid in output file name
 
 echo "CHL FS CLD study 2" > timing_study2.out
 time(
