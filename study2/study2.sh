@@ -22,7 +22,7 @@
 echo "CHL FS CLD study 2" > timing_study2.out
 time(
     # load R module
-    # module load R/4.1.2-foss-2021b
+    module load R/4.1.2-foss-2021b
     
     # get a list of the 
     file_list=$(ls Shock-scenario-*.csv)
