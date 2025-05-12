@@ -59,4 +59,5 @@ To submit a batch job to run the simulation, type the follow sbatch command:
 ```
 sbatch simulate_study1.sh
 ```
+## Study 2 - Simulating Shock Scenarios with Sensitivity Analysis
 
