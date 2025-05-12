@@ -61,3 +61,17 @@ sbatch simulate_study1.sh
 ```
 ## Study 2 - Simulating Shock Scenarios with Sensitivity Analysis
 
+Study 2 runs takes each scenario and runs a sensitivity analysis for each shock scenario. The sensitivity analysis is designed in the sample_parms_study2.R script, which samples k vectors of values for each parameter and initial condition from a uniform distribution between 0.5 and 1.5 of its base value. This script is called before each shock scenario so that the sampled values are unique. 
+
+To get the files to run this simulation, clone the directory with the following git command, which clones only the study2 directory from the GitHub respository. 
+
+```
+git clone https://github.com/CBSDLab/CHLFS-Regional-CLD-Analysis.git study2
+```
+Change directory so that you're now in study2 with the following:
+
+```
+cd study2
+```
+The study2.sh is the SLURM script that submits the batch job to run the simulation study. You'll need to edit this file and replace 
+
